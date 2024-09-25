@@ -15,4 +15,4 @@ console.log("variable de firstName: " + typeof(firstName) +
             "\nvariable de isMarried: " + typeof(isMarried) +
             "\nvariable de year: " + typeof(year)
 );
-
+console.log(parseInt(10));
