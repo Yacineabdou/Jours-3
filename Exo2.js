@@ -1,4 +1,4 @@
-/*-------------------Exo:2------------------------------*/
+/*-------------------Exo:2------------------------------
 //---------------challenge 1
 let base = prompt("Entrer base:")
 let hauteur = prompt("Entrer height:")
@@ -62,4 +62,10 @@ let salaireUtilisateur = hours * horaire
 console.log(salaireUtilisateur);
 
 //---------------challenge 10
-alert("mon nom est courte")
+alert("mon nom est courte")*/
+
+//---------------challenge 11
+let firstName = "yacine"
+let lastName = "abdou"
+console.log(firstName.length === lastName.length);
+alert("Mon prénom, Yacine, est effectivement plus long que mon nom de famille, Abdou")
