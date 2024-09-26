@@ -24,3 +24,9 @@ console.log(perimetreDuRectangle);
 let cercle = prompt("Entrer rayon:")
 let aireDuCercle = 3.14 * cercle * cercle
 console.log(aireDuCercle);
+
+//-------------challenge 5
+let calculerPente = prompt("Entrer x:")
+let x =  calculerPente
+let y = 2 * x -2
+console.log(y);
