@@ -1,4 +1,4 @@
-/*-------------------Exo:2------------------------------
+/*-------------------Exo:2------------------------------*/
 //---------------challenge 1
 let base = prompt("Entrer base:")
 let hauteur = prompt("Entrer height:")
@@ -53,10 +53,13 @@ let c = 9
 console.log(y = b ** 2 - 4 * a * c);
 let x = prompt("Entrer une valeur pour que y soit = 0")
 let resut = parseFloat(y = a * x ** 2 + b * x + c)
-console.log(resut);*/
+console.log(resut);
 
 //--------------challenge 9
 let hours = prompt("Entrer hours:")
 let horaire = prompt("Entrer horaire:")
 let salaireUtilisateur = hours * horaire
 console.log(salaireUtilisateur);
+
+//---------------challenge 10
+alert("mon nom est courte")
