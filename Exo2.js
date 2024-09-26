@@ -1,13 +1,26 @@
 /*-------------------Exo:2------------------------------*/
 //---------------challenge 1
-let base = prompt("Entrer base: 20")
-let hauteur = prompt("Entrer height: 10")
-let aire =  0.5 * 20 * 10
+let base = prompt("Entrer base:")
+let hauteur = prompt("Entrer height:")
+let aire =  0.5 * base * hauteur
 console.log(aire);
 
 //---------------challenge 2
-let coterA = prompt("Entrer side a: 5")
-let coterB = prompt("Entrer side b: 4")
-let coterC = prompt("Entrer c: 3")
-let perimetre = 5 + 4 + 3
+let coterA = prompt("Entrer side a:")
+let coterB = prompt("Entrer side b:")
+let coterC = prompt("Entrer c:")
+let perimetre = parseInt(coterA) + parseInt(coterB) + parseInt(coterC)
 console.log(perimetre);
+
+//--------------challenge 3
+let longeur = prompt("Entrer lenght:")
+let largeur = prompt("Entrer width:")
+let aireDuRectangle = longeur*largeur
+let perimetreDuRectangle = 2 * (parseInt(longeur)+parseInt(largeur))
+console.log(aireDuRectangle);
+console.log(perimetreDuRectangle);
+
+//----------------challenge 4
+let cercle = prompt("Entrer rayon:")
+let aireDuCercle = 3.14 * cercle * cercle
+console.log(aireDuCercle);

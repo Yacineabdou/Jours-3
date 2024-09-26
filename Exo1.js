@@ -125,4 +125,5 @@ console.log(voir10);
 
  console.log(temps.getMinutes());
 
+ //----decouvrez les sécondes dépuis janvier 1970
  console.log(temps.getTime());
