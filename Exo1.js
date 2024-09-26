@@ -19,7 +19,7 @@ console.log("variable de firstName: " + typeof(firstName) +
 );
 
 //--------------challenge 2-------------------
-console.log("10" == 10);
+console.log("10"=== 10);
 
 //---------------challenge 3------------------
 let num = parseInt('9.8')
@@ -127,3 +127,4 @@ console.log(voir10);
 
  //----decouvrez les sécondes dépuis janvier 1970
  console.log(temps.getTime());
+ 

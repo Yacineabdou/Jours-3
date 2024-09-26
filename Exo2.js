@@ -1,4 +1,4 @@
-/*-------------------Exo:2------------------------------*/
+/*-------------------Exo:2------------------------------
 //---------------challenge 1
 let base = prompt("Entrer base:")
 let hauteur = prompt("Entrer height:")
@@ -15,18 +15,33 @@ console.log(perimetre);
 //--------------challenge 3
 let longeur = prompt("Entrer lenght:")
 let largeur = prompt("Entrer width:")
+let fej = parseFloat(longeur)
+let grt = parseFloat(largeur)
 let aireDuRectangle = longeur*largeur
-let perimetreDuRectangle = 2 * (parseInt(longeur)+parseInt(largeur))
+let perimetreDuRectangle = 2 * fej + grt 
 console.log(aireDuRectangle);
 console.log(perimetreDuRectangle);
 
 //----------------challenge 4
 let cercle = prompt("Entrer rayon:")
+    cercle = parseFloat(cercle)
 let aireDuCercle = 3.14 * cercle * cercle
-console.log(aireDuCercle);
+console.log(aireDuCercle);*/
 
 //-------------challenge 5
-let calculerPente = prompt("Entrer x:")
-let x =  calculerPente
-let y = 2 * x -2
-console.log(y);
+let monM = prompt("Entrer m:")
+let monB = prompt("Entrer b:")
+let y = 0
+let monX = parseFloat(-monB) / parseFloat(monM)
+console.log("x = ", monX, "y =", y);
+    
+//-------------challenge 6
+let x1 = 2
+let x2 = 6
+let y1 = 2
+let y2 = 10
+let pente1 = (y2 - y1)/(x2 - x1)
+console.log(pente1);
+
+//------------challenge 7
+console.log(monX === pente1);
