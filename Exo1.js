@@ -112,3 +112,17 @@ console.log(voir10);
  console.log(monVa.includes("on"));
 
  //---------------------challenge 7
+ let temps = new Date()
+ console.log(temps.getFullYear());
+
+ console.log(temps.getMonth());
+
+ console.log(temps.getDate());
+
+ console.log(temps.getDay());
+
+ console.log(temps.getHours());
+
+ console.log(temps.getMinutes());
+
+ console.log(temps.getTime());
