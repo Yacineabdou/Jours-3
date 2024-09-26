@@ -69,3 +69,9 @@ let firstName = "yacine"
 let lastName = "abdou"
 console.log(firstName.length === lastName.length);
 alert("Mon prénom, Yacine, est effectivement plus long que mon nom de famille, Abdou")
+
+//-----------------challenge 12
+let myAge = 35
+let yourAge = 25
+console.log(myAge - yourAge);
+alert("j'ai 10 ans de plus que toi.")
