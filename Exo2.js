@@ -45,3 +45,12 @@ console.log(pente1);
 
 //------------challenge 7
 console.log(monX === pente1);
+
+//------------challenge 8
+let a = 1
+let b = 6
+let c = 9
+console.log(y = b ** 2 - 4 * a * c);
+let x = prompt("Entrer une valeur pour que y soit = 0")
+let resut = parseFloat(y = a * x ** 2 + b * x + c)
+console.log(resut);
