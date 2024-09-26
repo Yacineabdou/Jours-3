@@ -26,7 +26,7 @@ console.log(perimetreDuRectangle);
 let cercle = prompt("Entrer rayon:")
     cercle = parseFloat(cercle)
 let aireDuCercle = 3.14 * cercle * cercle
-console.log(aireDuCercle);*/
+console.log(aireDuCercle);
 
 //-------------challenge 5
 let monM = prompt("Entrer m:")
@@ -53,4 +53,10 @@ let c = 9
 console.log(y = b ** 2 - 4 * a * c);
 let x = prompt("Entrer une valeur pour que y soit = 0")
 let resut = parseFloat(y = a * x ** 2 + b * x + c)
-console.log(resut);
+console.log(resut);*/
+
+//--------------challenge 9
+let hours = prompt("Entrer hours:")
+let horaire = prompt("Entrer horaire:")
+let salaireUtilisateur = hours * horaire
+console.log(salaireUtilisateur);
