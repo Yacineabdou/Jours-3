@@ -1,4 +1,4 @@
-/*-------------------Exo:2------------------------------
+/*-------------------Exo:2------------------------------*/
 //---------------challenge 1
 let base = prompt("Entrer base:")
 let hauteur = prompt("Entrer height:")
@@ -62,7 +62,7 @@ let salaireUtilisateur = hours * horaire
 console.log(salaireUtilisateur);
 
 //---------------challenge 10
-alert("mon nom est courte")*/
+alert("mon nom est courte")
 
 //---------------challenge 11
 let firstName = "yacine"
@@ -73,7 +73,9 @@ alert("Mon prénom, Yacine, est effectivement plus long que mon nom de famille, 
 //-----------------challenge 12
 let myAge = 35
 let yourAge = 25
-console.log(myAge - yourAge);
+let somme = "35"
+let somme1 ="25"
+console.log(somme,somme1,myAge - yourAge);
 alert("j'ai 10 ans de plus que toi.")
 
 //---------------challenge 13
@@ -90,3 +92,33 @@ alert("vous pourrez conduir dans peu de temps")
 let entrerAge = prompt("veilllez entrer votre age:")
 let resolution = entrerAge * 31557600
 console.log(resolution);
+
+//---------------challenge 15
+// AAAA-MM-JJ HH:mm
+const now = new Date();
+
+const year = now.getFullYear();
+const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Ajout de 1 car les mois commencent à 0
+const day = now.getDate().toString().padStart(2, '0');
+const hour = now.getHours().toString().padStart(2, '0');
+const minutes = now.getMinutes().toString().padStart(2, '0');
+
+const formattedDate = `${year}-${month}-${day} ${hours}:${minutes}`;
+console.log(formattedDate);
+
+// JJ-MM-AAAA HH:mm
+const now1 = new Date();
+const day1 = now.getDate().toString().padStart(2, '0');
+const month1 = (now.getMonth() + 1).toString().padStart(2, '0'); // Ajout de 1 car les mois commencent à 0
+const year1 = now.getFullYear();
+const hours1 = now.getHours().toString().padStart(2, '0');
+const minutes1 = now.getMinutes().toString().padStart(2, '0');
+const formattedDate1 = `${day}-${month}-${year} ${hours}:${minutes}`;
+
+console.log(formattedDate1);
+
+// JJ/MM/AAAA HH:mm
+const now3 = new Date()
+const option = { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'}
+const formattedDate3 = now.toLocaleString('fr-FR',option)
+console.log(formattedDate3);
