@@ -84,6 +84,9 @@ alert(" vous avez l'âge légal pour conduir")
 let sonAge = prompt("veillez entrer votre age:")
 let affiare = tonAge <= ageNormal && tonAge <= tonAge
 console.log(affiare);
-
 alert("vous pourrez conduir dans peu de temps")
 
+//--------------challenge 14
+let entrerAge = prompt("veilllez entrer votre age:")
+let resolution = entrerAge * 31557600
+console.log(resolution);
