@@ -75,3 +75,15 @@ let myAge = 35
 let yourAge = 25
 console.log(myAge - yourAge);
 alert("j'ai 10 ans de plus que toi.")
+
+//---------------challenge 13
+let tonAge = prompt("Veillez entrer votre age:")
+let ageNormal = 18
+console.log(tonAge >= ageNormal && tonAge <= tonAge);
+alert(" vous avez l'âge légal pour conduir")
+let sonAge = prompt("veillez entrer votre age:")
+let affiare = tonAge <= ageNormal && tonAge <= tonAge
+console.log(affiare);
+
+alert("vous pourrez conduir dans peu de temps")
+
